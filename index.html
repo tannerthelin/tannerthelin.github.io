@@ -1,23 +1,111 @@
----
-layout: default
----
+<!doctype html>
+<html>
+<head>
 
-<div class="home">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-  <h1 class="page-heading">Posts</h1>
+<link rel="stylesheet" type="text/css" href="styles.css">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+</head>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<body>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="nav">
+	<div class=logo>
+		<img src="assets/threadr-logo.png" width = "123px">	
+	</div>
+	<div class="buttons">
+		<button type="button" class="button-dark">REQUEST AN INVITE</button>
+		<button type="button" class="button-light">Have an invite code?</button>
+	</div>
+</div>
+
+<div class="main-content">
+	<h1>Join the conversation.</h1>
+	<h2>A new way to use reddit, built for you.</h2>	
+</div>
+
+<div class="screenshot-image">
+	<img src="assets/screenshot.png" width = "637px">
+</div>
+
+<div class="second-section">
+	<h2>The Reddit experience has been reimagined with you in mind.</h2>
+	<h3>Threadr is the best way to view and interact with your favorite subreddits. Create posts, send and receive messages, all in a new, streamlined interface.</h3>
+	<div>
+		<img src="assets/submit-post.png" class= "middle-image" width = "650px">
+	</div>
+</div>
+
+<div id= "grid-section" class="container">
+	<div class="row">
+		<div class="col-md-4">
+			<img src="assets/icons/laptop.png" class= "icon" width = "50px">
+			<h4>Streamlined Design</h4>
+			<h3>Stop opening so many tabs to see what's new.</h3>
+		</div>
+
+		<div class="col-md-4">
+			<img src="assets/icons/user.png" class= "icon" width = "50px">
+			<h4>User Information</h4>
+			<h3>Log in to import your followed subreddits & karma.</h3>
+		</div>
+
+		<div class="col-md-4">
+			<img src="assets/icons/mail.png" class= "icon" width = "50px">
+			<h4>Send Messages</h4>
+			<h3>We've included the ability to receive private messages.</h3>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<div class="col-md-2">
+		</div>
+
+		<div class="col-md-4">
+			<img src="assets/icons/key.png" class= "icon" width = "50px">
+			<h4>Totally Secure</h4>
+			<h3>We won't share your information with anyone.</h3>
+		</div>
+
+		<div class="col-md-4">
+			<img src="assets/icons/speech.png" class= "icon" width = "50px">
+			<h4>This is a test.</h4>
+			<h3>Lock down your cards so they're useless to criminals.</h3>
+		</div>
+
+		<div class="col-md-2">
+		</div>
+	</div>	
+</div>
+
+<div class="last-section">
+
+	<h2>We're invite-only right now.</h2>
+	<button type="button" class="button-dark">REQUEST AN INVITE</button>
+	<a href="#">Have an invite code?</a>
+	<hr>
+
+	<div class="container">
+		<img src="assets/press-logos/techcrunch.png" width = "65px">
+		<img src="assets/press-logos/lifehacker.png" width = "130px">
+		<img src="assets/press-logos/theverge.svg" width = "140px">
+		<img src="assets/press-logos/americanbanker.png" width = "175px">
+	</div>
+
+	<div class="container">
+		<img src="assets/press-logos/forbes.svg" width = "105px">
+		<img src="assets/press-logos/tnw.svg" width = "110px">
+		<img src="assets/press-logos/credit.png" width = "140px">
+		<img src="assets/press-logos/macworld.png" width = "175px">
+	</div>
+</div>
+
+<div class="footer">
+	<h3>&copy; 2016 Threadr All Rights Reserved</h3>
 
 </div>
+
+</body>
+</html>

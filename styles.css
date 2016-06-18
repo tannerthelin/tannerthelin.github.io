@@ -1,0 +1,194 @@
+body {
+	font-family: "Avenir", sans-serif;
+}
+
+.nav {
+	max-width: 1100px;
+	margin: auto;
+	margin-top: 25px;
+}
+
+.logo {
+	display: inline;
+}
+
+.buttons {
+	display: inline;
+	float: right;
+}
+
+.button-dark {
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #7CAAFF; 
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transition: 0.25s ease;
+}
+
+.button-dark:hover {
+	background-color: #A3BDEF;
+}
+
+.button-light {
+	cursor: pointer;
+	border-radius: 100px;
+	background-color: #F2F6FA; 
+    border: none;
+    color: #6C7FA5;
+    padding: 15px 25px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    transition: 0.25s ease;
+}
+
+.button-light:hover {
+	background-color: #E3E9EF;
+}
+
+h1 {
+	text-align: center;
+	font-size: 33px;
+	font-weight: 500;
+	color: #26334D;
+	margin: 0px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 100;
+	color: #26334D;
+	margin-top: 15px;
+}
+
+h3 {
+	text-align: center;
+	font-size: 19px;
+	font-weight: 100;
+	color: #26334D;
+	margin-top: 15px;
+	margin: auto; 
+	line-height: 33px;
+	width: 600px;
+}
+
+.main-content {
+	height: 525px;
+	display: block;
+	margin-top: 70px;
+}
+
+.screenshot-image {
+	margin-top: -380px;
+	position: absolute;
+	left: 50%;
+    -webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.second-section {
+	height: 900px;
+	padding-top: 180px;
+	padding-bottom: 250px;
+	background-color: #F2F6FA;
+}
+
+.middle-image {
+	position: absolute;
+	left: 50%;
+    -webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+#grid-section {
+	padding-top: 120px;
+	padding-bottom: 50px;
+}
+
+.icon {
+	display: block;
+	margin: auto;
+}
+
+#grid-section h3 {
+	font-size: 22px;
+	width: 300px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	color: #26334D;
+	margin-top: 40px;
+}
+
+.row {
+	margin-bottom: 100px;
+}
+
+.last-section {
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	background-color: #F2F6FA;
+}
+
+.last-section button {
+	background-color: #2C2F42;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 25px 45px;
+	font-size: 14px;
+}
+
+.last-section button:hover {
+	background-color: #434865;
+}
+
+a {
+	display: block;
+	text-align: center;
+	font-size: 19px;
+	font-weight: 100;
+	color: #B7B9C5;
+	transition: 0.25s ease;
+	margin-bottom: 60px;
+}
+
+a:hover {
+	color: #8C8D96;
+	text-decoration: none;
+}
+
+hr {
+	border-color: #D9DCEA;
+	margin-bottom: 75px;
+}
+
+.last-section img {
+	margin: 50px 20px;
+}
+
+.container {
+	text-align: center;
+}
+
+.footer {
+	height: 200px;
+	background-color: #2C2F42;
+}
+
+.footer h3 {
+	color: #616473;
+	padding-top: 85px;
+}
+
