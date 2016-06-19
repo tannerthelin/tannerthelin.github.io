@@ -6,6 +6,34 @@
 
 <link rel="stylesheet" type="text/css" href="styles.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
 </head>
 
 <body>
@@ -16,7 +44,7 @@
 	</div>
 	<div class="buttons">
 		<a href="mailto:tannerthelin@gmail.com" class="button-light">Get in touch</a>
-		<a href="#subscribe" class="button-dark">SUBSCRIBE</a>
+		<a href="#subscribe" class="button-dark";>SUBSCRIBE</a>
 	</div>
 </div>
 
@@ -78,7 +106,7 @@
 		<div class="col-md-2">
 		</div>
 	</div>	
-	<a name="subscribe"></a> 
+	<a id="subscribe"></a> 
 </div>
 
 <div class="last-section">
