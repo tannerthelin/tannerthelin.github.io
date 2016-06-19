@@ -99,6 +99,10 @@ h3 {
 	background-color: #F2F6FA;
 }
 
+.second-section h2 {
+	margin-bottom: 30px;
+}
+
 .middle-image {
 	position: absolute;
 	left: 50%;
