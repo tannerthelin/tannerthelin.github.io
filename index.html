@@ -1,209 +1,72 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<title>Threadr</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-<link rel="stylesheet" type="text/css" href="styles.css">
-
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-
-#mc_embed_signup_scroll {
-	background-color: #F2F6FA;
-}
-
-#mce-EMAIL {
-	font-family: "Avenir", sans-serif;
-	margin: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	display: block;
-	max-width: 400px;
-	background: #FFF;
-	border: 2px solid #f0f0f0;
-	border-radius: 100px;
-	font-size: 18px;
-	padding: 20px;
-	width: 100%;
-	transition: background 1s, border-left 1s;
-}
-
-#mc-embedded-subscribe {
-	width: 200px;
-	font-family: "Avenir", sans-serif;
-	font-weight: 700;
-	color: #fff;
-	background-color: #2C2F42;
-	display: block;
-	margin: auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding: 25px 45px;
-	font-size: 14px;
-	letter-spacing: 1.5px;
-}
-
-#mc-embedded-subscribe:hover {
-	background-color: #434865;
-}
-
-</style>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
-</head>
+    <meta charset="utf-8">
+    <title>Tanner Thelin</title>
+    <link rel="stylesheet" href="styles/peak.css" type="text/css">
+    <link rel="stylesheet" href="styles/animations.css" type="text/css">
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </head>
 
 <body>
-
-<div class="nav">
-	<div class=logo>
-		<img src="assets/threadr-logo.png" width = "123px">	
-	</div>
-	<div class="buttons">
-		<a href="mailto:info@threadr.io" class="button-light">Get in touch</a>
-		<a href="#subscribe" class="button-dark";>SUBSCRIBE</a>
-	</div>
-</div>
-
-<div class="main-content">
-	<h1>Join the conversation.</h1>
-	<h2>A new way to use reddit, built for you.</h2>	
-</div>
-
-<div class="screenshot-image">
-	<img src="assets/screenshot.png" width = "637px">
-</div>
-
-<div class="second-section">
-	<h2>The Reddit experience has been reimagined with you in mind.</h2>
-	<h3>Threadr is a Reddit Client that draws in data via Reddit's APIs, so you can interact with your favorite subreddits, all from within a more streamlined layout.</h3>
-	<div>
-		<img src="assets/submit-post.png" class= "middle-image" width = "650px">
-	</div>
-</div>
-
-<div id= "grid-section" class="container">
-	<div class="row">
-		<div class="col-md-4" id="item">
-			<img src="assets/icons/laptop.png" class= "icon" width = "50px">
-			<h4>Stop opening so many tabs.</h4>
-			<h3>Threadr is the fastest way to read through posts.</h3>
-		</div>
-
-		<div class="col-md-4" id="item">
-			<img src="assets/icons/speech.png" class= "icon" width = "50px">
-			<h4>Be part of the conversation.</h4>
-			<h3>Create posts and write comments.</h3>
-		</div>
-
-		<div class="col-md-4" id="item">
-			<img src="assets/icons/user.png" class= "icon" width = "50px">
-			<h4>Import your profile information.</h4>
-			<h3>Log in to import your followed subreddits & karma.</h3>
-		</div>
+	<div class="header-container">
+	<div class="header">
+		<a class="logo-text" href="index.html">Tanner Thelin</a>
+		<ul class="nav-list">
+			<a href="index.html"><li>Work</li></a>
+			<a href="about.html"><li>About</li></a>
+		</ul>
+	</div>   
 	</div>
 
-	<div class="row">
+	<div class="main-content">
+		<img src="img/homepage-icons.png" class="icons animated">
+		<h1 id="heading-1" class="animated">Hello! My name is Tanner.</h1>
+		<h2 id="heading-2" class="animated">I’m a designer based in Provo, Utah.</h2>
+		<div class="projects animated">
 
-		<div class="col-md-2">
+			<a href="threadr.html">
+						<div class="project-1">
+						<img src="img/threadr-illustration.png">
+						<h1>Creating a better way to use Reddit.</h1>
+						<a href="threadr.html" id="button">Read the Threadr case study</a>
+					</div>
+			</a>
+
+			<div class="project-2">
+					<img src="img/naked-thumbnail.png" width="247px">
+					<h1>Rethinking the brand for Naked Apts.</h1>
+					<div class="button-container">
+					<a href="naked.html" id="button">Read the Naked case study</a>
+					</div>
+			</div>
+
+			<div class="project-3">
+				<img src="img/headphones.png" width="247px">
+					<h1>A better platform for podcast listening.</h1>
+					<div class="button-container">
+					<a href="podcasting.html" id="button">Read the case study</a>
+				</div>
+			</div>
+
+			<div class="learn-more">
+			<a href="about.html">Learn more about me.</a>
+			</div>
 		</div>
 
-		<div class="col-md-4" id="item">
-			<img src="assets/icons/mail.png" class= "icon" width = "50px">
-			<h4>Send & recieve messages.</h4>
-			<h3>We've included the ability to receive private messages.</h3>
+		<div class="footer">
+			<a href="mailto:tannerthelin@gmail.com">tanner@tannerthelin.com</a>
+			<ul class="social">
+				<a href="https://tannerthelin.tumblr.com"><li>Tumblr</li></a>
+				<a href="https://twitter.com/tannerthelin"><li>Twitter</li></a>
+				<a href="https://www.instagram.com/tannerthelin/"><li>Instagram</li></a>
+			</ul>
 		</div>
-
-		<div class="col-md-4" id="item">
-			<img src="assets/icons/key.png" class= "icon" width = "50px">
-			<h4>Threadr is totally secure.</h4>
-			<h3>We won't share your information with anyone.</h3>
-		</div>
-
 		
-
-		<div class="col-md-2">
-		</div>
-	</div>	
-	<a id="subscribe"></a> 
-</div>
-
-<div class="last-section">
-
-<div class="subscribe">
-	<h2>Get notified when Threadr is live.</h2>
-	<h3>We'll never give your email to anyone else.</h3>
-
-		<!-- Begin MailChimp Signup Form -->
-
-<div id="mc_embed_signup">
-	<form action="//threadr.us13.list-manage.com/subscribe/post?u=32139e37134be9f41ff39a2df&amp;id=d6a92a2d69" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-
-    	<div id="mc_embed_signup_scroll">
-	
-			<input type="email" value="" name="EMAIL" class="email" spellcheck="false" id="mce-EMAIL" placeholder="Enter your email..." required>
-    		<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    		<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_32139e37134be9f41ff39a2df_d6a92a2d69" tabindex="-1" value=""></div>
-   		<div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    	</div>
-	</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-<!--<hr>-->
-</div>
-
-<!--	<div class="container">
-		<img src="assets/press-logos/techcrunch.png" width = "65px">
-		<img src="assets/press-logos/lifehacker.png" width = "130px">
-		<img src="assets/press-logos/theverge.svg" width = "140px">
-		<img src="assets/press-logos/americanbanker.png" width = "175px">
 	</div>
-
-	<div class="container">
-		<img src="assets/press-logos/forbes.svg" width = "105px">
-		<img src="assets/press-logos/tnw.svg" width = "110px">
-		<img src="assets/press-logos/credit.png" width = "140px">
-		<img src="assets/press-logos/macworld.png" width = "175px">
-	</div> -->
-</div>
-
-<div class="footer">
-	<h3>&copy; 2016 Threadr All Rights Reserved</h3>
-
-</div>
 
 </body>
+
 </html>

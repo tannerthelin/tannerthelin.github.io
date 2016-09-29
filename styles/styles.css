@@ -1,0 +1,286 @@
+body {
+  font-family: 'Peak', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+.header-container {
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.header {
+	max-width: 800px;
+	margin: auto;
+	padding: 25px 0px;
+	padding-bottom: 30px;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo-text {
+	display: inline;
+	color: #404460;
+	font-size: 19px;
+}
+
+ul {
+	display: inline;
+	float: right;
+	margin: 0px;
+}
+
+li {
+	display: inline;
+	font-size: 19px;
+	color: #8386A1;
+	padding-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    transition: .15s ease;
+}
+
+.main-content {
+	max-width: 800px;
+	margin: auto;
+	margin-top: 180px;
+	/*background-image: url("img/homepage-icons.png");
+	background-color: #fff;*/
+}
+
+.main-content h1 {
+	margin-bottom: 0px;
+}
+
+.icons {
+	position: absolute;
+	top: 82px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	max-width: 1290px;
+}
+
+h1 {
+	color: #404460;
+	margin-top: 160px;
+	font-size: 49px;
+	font-weight: 200;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: 400;
+	color: #404460;
+	text-align: center;
+}
+
+.projects {
+	margin-top: 200px;
+	transition: .5s ease;
+	position: relative;
+}
+
+.projects h1 {
+	color: #fff;
+	font-size: 34px;
+	text-align: left;
+	text-shadow: 1px 2px rgba(0, 0, 0, 0.15);
+	line-height: 45px;
+	margin-top: 65px;
+	margin-bottom: 40px;
+}
+
+.project-2 h1 {
+	display: block;
+	padding: 0px 40px;
+	font-size: 28px;
+	line-height: 35px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.project-3 h1 {
+	display: block;
+	padding: 0px 40px;
+	font-size: 28px;
+	line-height: 35px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#button {
+	font-size: 17px;
+	display: inline;
+	background-color: rgba(255, 255, 255, 0.3);
+	padding: 20px 20px;
+	border-radius: 5px;
+	color: rgba(0, 0, 0, 0.5);
+	transition: 0.25s;
+}
+
+.project-2 #button {
+	max-width: 250px;
+	display: block;
+	text-align: center;
+	color: #15A49C;
+	margin: auto;
+}
+
+.project-3 #button {
+	max-width: 250px;
+	display: block;
+	color: #B48E23;
+	text-align: center;
+	margin: auto;
+}
+
+.button-container {
+	width: 100%;
+}
+
+.project-1 {
+	margin-bottom: 20px;
+	background-color: #9683FF;
+	border-radius: 7px;
+	padding: 55px 55px;
+	padding-bottom: 150px;
+}
+
+
+.projects img {
+	float: left;
+	max-width: 328px;
+	margin-right: 40px;
+	margin-top: 0px;
+}
+
+.project-2 img {
+	float: none;
+	display: block;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.project-3 img {
+	float: none;
+	display: block;
+	margin: auto;
+	margin-top: 35px;
+}
+
+.project-2 {
+	display: inline-block;
+	background-color: #18D4C9;
+	border-radius: 7px;
+	width: 390px;
+	height: 390px;
+}
+
+.project-3 {
+	display: inline-block;
+	float: right;
+	background-color: #F6CE2F;
+	border-radius: 7px;
+	width: 390px;
+	height: 390px;
+}
+
+.learn-more {
+	background-color: #F2F3F5;
+	border-radius: 7px;
+	text-align: center;
+	margin-top: 15px;
+	padding: 70px 100px;
+}
+
+.learn-more a {
+	transition: 0.15s;
+	background-color: transparent;
+	font-size: 36px;
+	color: #404460;
+	padding: 0px;
+	font-weight: 200;
+}
+
+.footer {
+	margin-top: 45px;
+	margin-bottom: 100px;
+}
+
+.footer a{
+	transition: 0.15s;
+	color: #8386A1;
+	font-size: 17px;
+}
+
+.footer li {
+	transition: 0.15s;
+	font-size: 17px;
+}
+
+/* From here, it's all hover states and stuff */
+
+.project-1:hover #button {
+	background-color: #fff;
+	color: #725FDF;
+	box-shadow: 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.project-2:hover #button {
+	background-color: #fff;
+	color: #15A49C;
+	box-shadow: 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.project-3:hover #button {
+	background-color: #fff;
+	color: #B48E23;
+	box-shadow: 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.project-1 {
+	cursor: pointer;
+}
+
+.learn-more:hover a{
+	color: #62AAFF;
+}
+
+.learn-more:hover {
+	cursor: pointer;
+}
+
+.footer a:hover {
+	color: #62AAFF;
+}
+
+li:hover {
+	color: #62AAFF;
+}
+
+/* id stuff for jQuery 
+#heading-1, #heading-2 {
+	opacity: 0;
+	position: absolute;
+}
+
+#heading-1 {
+	top: 110px;
+	left: 0;
+	right: 0;
+}
+
+#heading-2 {
+	top: 315px;
+	left: 0;
+	right: 0;
+}*/
