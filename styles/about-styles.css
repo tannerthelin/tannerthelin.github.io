@@ -21,6 +21,11 @@ a {
 	text-decoration: none;
 }
 
+.content a {
+	color: #404460;
+	text-decoration: underline;
+}
+
 .logo-text {
 	display: inline;
 	color: #404460;
